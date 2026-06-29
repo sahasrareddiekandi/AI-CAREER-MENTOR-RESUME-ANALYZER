@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-from modules.skill_detector import detect_skills
-from modules.resume_score import calculate_score
-from modules.career_predictor import predict_career
-from modules.pdf_reader import extract_text
-from modules.interview_questions import get_questions
-from modules.course_recommender import get_courses
-from modules.certifications import get_certifications
+from skill_detector import detect_skills
+from resume_score import calculate_score
+from career_predictor import predict_career
+from pdf_reader import extract_text
+from interview_questions import get_questions
+from course_recommender import get_courses
+from certifications import get_certifications
 
 st.set_page_config(
     page_title="AI Career Mentor Pro",
